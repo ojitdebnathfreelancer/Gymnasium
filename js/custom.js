@@ -10,4 +10,19 @@ $(document).ready(function(){
 
     // about video play 
     $('.venobox').venobox();
+
+    // testimonail slider 
+    $(".tesimonail-slider").slick({
+        arrows:false,
+        slidesToShow:2,
+        dots:true,
+        autoplay:true,
+        pauseOnHover:false,
+    });
+
+    // counter up 
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000,
+    });
 });
