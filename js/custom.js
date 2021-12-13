@@ -16,12 +16,36 @@ $(document).ready(function(){
         arrows:false,
         slidesToShow:2,
         dots:true,
-        autoplay:true,
+        autoplay:false,
         pauseOnHover:false,
     });
 
-    // counter up 
-    $('.counter').counterUp({
+   
+
+    // brand slider 
+    $(".company-slider").slick({
+        slidesToShow:5,
+        centerMode:true,
+        centerPadding:"0px",
+        prevArrow:'<i class="fas fa-chevron-left slick-arrow left-arrow"></i>',
+        nextArrow:'<i class="fas fa-chevron-right slick-arrow right-arrow"></i>',
+        pauseOnHover:false,
+        // autoplay:true,
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                  slidesToShow: 3,
+                  slidesToScroll:1,
+                  dots: false,
+                  arrows:false,
+                },
+            },
+        ],
+    });
+
+     // counter up 
+     $('.counter').counterUp({
         delay: 10,
         time: 2000,
     });

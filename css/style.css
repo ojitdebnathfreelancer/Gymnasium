@@ -739,3 +739,245 @@ img{
 /*=====================
  counter up css ends  
  ====================*/
+
+ .routine-head{
+    margin-top: 80px;
+    margin-bottom: 30px;
+ }
+
+ #routine .nav-tabs .nav-item.show .nav-link,
+ #routine .nav-tabs .nav-item .nav-link:hover,
+ #routine .nav-tabs .nav-link.active{
+     border-color: transparent !important;
+ }
+
+ #routine .nav-tabs .nav-item{
+     width: 16.66%;
+ }
+
+ #routine .nav-tabs .nav-item .nav-link.active{
+     background: var(--brandcolor);
+     color:var(--textcolor)
+ }
+
+ #routine .nav-tabs .nav-item .nav-link{
+     background-color: var(--bg2);
+     line-height: 51px;
+     color:var(--headtextcolor);
+ }
+ #routine .routine-item{
+     margin-top: 30px;
+ }
+
+ #routine .routine-item .tab-content .tab-pane ul li{
+     width: 20%;
+     background-color:var(--bg2);
+     padding-top: 50px;
+     padding-bottom: 50px;
+     transform: scale(0.98);
+     -webkit-transform: scale(0.98);
+     -moz-transform: scale(0.98);
+     -ms-transform: scale(0.98);
+     -o-transform: scale(0.98);
+}
+
+ #routine .routine-item .tab-content .tab-pane ul li{
+     color:var(--headtextcolor);
+ }
+
+ #routine .routine-item .tab-content .tab-pane ul li.active{
+     background-color: var(--brandcolor);
+     color:var(--bg2);
+ }
+ /*===================
+ routine css ends
+ ====================*/
+#brand{
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+/* #brand .slick-slide{
+    padding: 0px 15px;
+} */
+
+#brand .brand-item{
+    margin:0px 15px;
+    /* background-color: red; */
+}
+
+#brand .slick-center{
+    box-shadow: 0px 0px 10px 0px rgba(255, 4, 4, 0.7);
+}
+
+#brand .left-arrow{
+    color:var(--headtextcolor);
+    font-size: 28px;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#brand .left-arrow:hover{
+    color: var(--brandcolor);
+}
+
+#brand .right-arrow{
+    color:var(--headtextcolor);
+    font-size: 28px;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+    transition: all linear 0.2s;
+    -webkit-transition: all linear 0.2s;
+    -moz-transition: all linear 0.2s;
+    -ms-transition: all linear 0.2s;
+    -o-transition: all linear 0.2s;
+}
+
+#brand .right-arrow:hover{
+    color:var(--brandcolor);
+}
+
+ /*===========================
+  brand slider css ends
+  =========================*/
+
+#footer{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/footer-bg.jpg) no-repeat center / cover;
+}
+
+#footer .footer-logo{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#footer .main-footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#footer .main-footer .footer-item .opening-hour{
+    margin-top: 30px;
+}
+
+#footer .main-footer .footer-item .opening-hour li{
+    margin-bottom: 5px;
+}
+
+#footer .main-footer .footer-item .opening-hour li:last-of-type{
+    margin-bottom: 0;
+}
+
+#footer .main-footer .footer-item .opening-hour li span{
+    display: inline-block;
+    width: 100px;
+}
+
+#footer .main-footer .footer-item .twitter-feed li{
+    padding-left: 30px;
+    margin-top: 30px;
+    line-height: 18px;
+}
+
+#footer .main-footer .footer-item .twitter-feed li .icon i{
+    font-size: 18px;
+    color: var(--twittercolor);
+}
+
+#footer .main-footer .footer-item .twitter-feed li span{
+    font-weight: bold;
+}
+
+#footer .main-footer .footer-item .gallery{
+    margin-top: 30px;
+}
+
+#footer .main-footer .footer-item .gallery li{
+    width:25% ;
+    padding: 5px;
+}
+
+#footer .main-footer .footer-item .gallery li img{
+    width: 100%;
+}
+
+#footer .main-footer .footer-item .contact{
+    margin-top: 30px;
+}
+
+#footer .main-footer .footer-item .contact li{
+    padding-left: 25px;
+    margin-top: 20px;
+}
+
+#footer .main-footer .footer-item .contact li i{
+    font-size: 13px;
+    color: var(--brandcolor);
+}
+
+#footer .main-footer .footer-item .get-socail{
+    margin-top: 30px;
+}
+
+#footer .main-footer .footer-item .socail-link{
+    margin-top: 30px;
+}
+
+#footer .main-footer .footer-item .socail-link a{
+    margin-left: 4px;
+}
+#footer .main-footer .footer-item .socail-link a:first-of-type{
+    margin-left: 0px;
+}
+
+#footer .main-footer .footer-item .socail-link a i{
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--textpcolor);
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color:white;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#footer .main-footer .footer-item .socail-link a i:hover{
+    background-color:var(--brandcolor);
+    border: 1px solid var(--brandcolor);
+}
+
+#footer .copyright p{
+    line-height: 50px;
+}
+
+#footer .copyright p a{
+    color: var(--brandcolor);
+}
+/*===========================
+  footer css ends
+=========================*/
