@@ -1,0 +1,347 @@
+/*==========================
+ extra small device starts
+ ==========================  */
+@media (max-width:575px){
+
+    /* navbar css starts  */
+    .navbar .navbar-brand{
+        position: unset !important;
+        transform:skewX(0deg) !important;
+        -webkit-transform:skewX(0deg) !important;
+        -moz-transform:skewX(0deg) !important;
+        -ms-transform:skewX(0deg) !important;
+        -o-transform:skewX(0deg) !important;
+        padding: 0px !important;
+        background: transparent !important;
+    }
+
+    .navbar .navbar-brand img{
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0deg) !important;
+        -moz-transform: skewX(0deg) !important;
+        -ms-transform: skewX(0deg) !important;
+        -o-transform: skewX(0deg) !important;
+    }
+
+    .navbar .navbar-toggler{
+        border-color:#e23e38;
+        border-width: 2px;
+        border-radius: 15px !important;
+        -webkit-border-radius: 15px !important;
+        -moz-border-radius: 15px !important;
+        -ms-border-radius: 15px !important;
+        -o-border-radius: 15px !important;
+        outline: none !important;
+}
+    .navbar .navbar-toggler i{
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav{
+        background: rgba(53, 53, 51, 0.5);
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+    /* navbar css ends  */
+
+
+    /* banner css starts  */
+
+    /* #banner .banner-slider .item.bg-2 {
+        padding-bottom: 151px;
+    }
+
+    #banner .banner-slider .item.bg-2 {
+        padding-bottom: 151px;
+    }
+
+    #banner .banner-slider .item.bg-3 {
+        padding-bottom: 151px;
+    } */
+
+    #banner .banner-slider .bg-1 h3::before,
+    #banner .banner-slider .bg-1 h3::after,
+    #banner .banner-slider .bg-1 h1::before,
+    #banner .banner-slider .bg-1 h1::after,
+    #banner .banner-slider .bg-1 p::before,
+    #banner .banner-slider .bg-1 p::after {
+       display: none;
+    }
+
+    #banner .banner-slider .bg-1 h1,
+    #banner .banner-slider .bg-2 h1,
+    #banner .banner-slider .bg-3 h1{
+        font-size: 40px !important;
+    }
+
+    #banner .banner-slider .bg-1 h3,
+    #banner .banner-slider .bg-2 h3,
+    #banner .banner-slider .bg-3 h3{
+        font-size: 20px !important;
+    }
+
+    #banner .banner-slider .item .container .banner-text .first-p {
+        padding: 0;
+    }
+    /* banner css ends  */
+    
+    /* about css starts  */
+    #about {
+        padding: 10px 0;
+    }
+
+    #about .about-text p {
+        padding: 0px;
+    }
+    /* about css ends  */
+
+    /* gallery css starts  */
+    #gallery{
+        margin-top: 10px !important;
+    }
+    /* gallery css ends  */
+
+    /* our team css starts  */
+    #our-team {
+        padding: 10px 0;
+    }
+
+    #our-team .container .card{
+        margin-top: 50px;
+    }
+    /* our team css ends  */
+
+    /* testimonail css starts  */
+    #testimonial{
+        padding-bottom: 30px;
+    }
+
+    #testimonial .container .tesimonail-slider .testimonial-item .reating{
+        margin-top: 15px;
+    }
+
+    #testimonial .container .tesimonail-slider .testimonial-item .person-text{
+        margin-top: 15px;
+    }
+
+    #testimonial .container .tesimonail-slider .testimonial-item .person-text p {
+        padding-right:0;
+    }
+    /* testimonail css ends  */
+
+    /* membership css starts  */
+    #membership {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #membership .container .main-div .membership-item {
+        margin-top: 10px;
+    }
+
+    #membership .container .main-div .membership-item .price h3{
+        font-size: 40px;
+    }
+    /* membership css ends  */
+
+    /* counter up css starts  */
+    #counter-up{
+        text-align: center;
+    }
+    #counter-up .xs-count{
+        margin-top: 15px;
+    }
+
+    #counter-up .xs-count:first-of-type{
+        margin-top: 0;
+    }
+    /* counter up css ends  */
+
+    /* our classes css starts  */
+    .routine-head {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #routine .nav-tabs .nav-item {
+        width: 100%;
+    }
+
+    #routine .routine-item .tab-content .tab-pane ul li{
+        width: 50%;
+    }
+    /* our classes css ends  */
+
+    /* brand slider css starts  */
+    #brand {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* brand slider css ends  */
+
+    /* footer css starts  */
+    #footer .footer-item h5{
+        margin-top: 30px !important;
+    }
+
+    #footer .main-footer{
+        padding-top: 0;
+    }
+    /* footer css ends  */
+}
+ /*==========================
+ extra small device ends
+ ==========================  */
+
+
+ /*==========================
+  small device starts
+ ==========================  */
+@media (min-width:576px) and (max-width:767px){
+    /* navbar css starts  */
+    .navbar .navbar-brand{
+        position: unset !important;
+    }
+
+    .navbar .navbar-toggler{
+        border-color:#e23e38;
+        border-width: 2px;
+        border-radius: 15px !important;
+        -webkit-border-radius: 15px !important;
+        -moz-border-radius: 15px !important;
+        -ms-border-radius: 15px !important;
+        -o-border-radius: 15px !important;
+        outline: none !important;
+}
+    .navbar .navbar-toggler i{
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav{
+        background: rgba(53, 53, 51, 0.5);
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        text-align: center;
+    }
+    /* navbar css ends  */
+
+    /* banner css starts  */
+    #banner .banner-slider .bg-1 h3::before,
+    #banner .banner-slider .bg-1 h3::after,
+    #banner .banner-slider .bg-1 h1::before,
+    #banner .banner-slider .bg-1 h1::after,
+    #banner .banner-slider .bg-1 p::before,
+    #banner .banner-slider .bg-1 p::after {
+       display: none;
+    }
+
+    #banner .banner-slider .bg-1 h1,
+    #banner .banner-slider .bg-2 h1,
+    #banner .banner-slider .bg-3 h1{
+        font-size: 40px !important;
+    }
+
+    #banner .banner-slider .bg-1 h3,
+    #banner .banner-slider .bg-2 h3,
+    #banner .banner-slider .bg-3 h3{
+        font-size: 20px !important;
+    }
+
+    #banner .banner-slider .item .container .banner-text .first-p {
+        padding: 0;
+    }
+    /* banner css ends  */
+
+    /* about css starts  */
+    #about {
+        padding: 10px 0;
+    }
+
+    #about .about-text p {
+        padding: 0px;
+    }
+    /* about css ends  */
+
+    /* gallery css starts  */
+    #gallery{
+        margin-top: 10px !important;
+    }
+    /* gallery css ends  */
+
+    /* our team css starts  */
+    #our-team {
+        padding: 10px 0;
+    }
+
+    #our-team .container .card{
+        margin-top: 50px;
+    }
+    /* our team css ends  */
+
+    /* testimonail css starts  */
+    #testimonial{
+        padding-bottom: 30px;
+    }
+
+    #testimonial .container .tesimonail-slider .testimonial-item .reating{
+        margin-top: 15px;
+    }
+
+    #testimonial .container .tesimonail-slider .testimonial-item .person-text{
+        margin-top: 15px;
+    }
+
+    #testimonial .container .tesimonail-slider .testimonial-item .person-text p {
+        padding-right:0;
+    }
+    /* testimonail css ends  */
+
+     /* membership css starts  */
+     #membership {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #membership .container .main-div .membership-item {
+        margin-top: 10px;
+    }
+    /* membership css ends  */
+
+    /* our classes css starts  */
+    .routine-head {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #routine .nav-tabs .nav-item {
+        
+    }
+
+    #routine .routine-item .tab-content .tab-pane ul li{
+        width: 50%;
+    }
+    /* our classes css ends  */
+
+    /* brand slider css starts  */
+    #brand {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* brand slider css ends  */
+
+    /* footer css starts  */
+    #footer .footer-item h5{
+        margin-top: 30px !important;
+    }
+
+    #footer .main-footer{
+        padding-top: 0;
+    }
+    /* footer css ends  */
+}
+ /*==========================
+  small device ends
+ ==========================  */

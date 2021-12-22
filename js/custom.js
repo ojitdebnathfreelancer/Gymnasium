@@ -2,7 +2,7 @@ $(document).ready(function(){
     // banner sliders 
     $(".banner-slider").slick({
         arrows:false,
-        autoplay:true,
+        // autoplay:true,
         autoplaySpeed:3000,
         pauseOnHover:false,
         dots:true,
@@ -18,6 +18,17 @@ $(document).ready(function(){
         dots:true,
         autoplay:false,
         pauseOnHover:false,
+        responsive:[
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll:1,
+                  dots: false,
+                  arrows:false,
+                },
+            },
+        ],
     });
 
    
@@ -30,7 +41,7 @@ $(document).ready(function(){
         prevArrow:'<i class="fas fa-chevron-left slick-arrow left-arrow"></i>',
         nextArrow:'<i class="fas fa-chevron-right slick-arrow right-arrow"></i>',
         pauseOnHover:false,
-        // autoplay:true,
+        autoplay:true,
         responsive: [
             {
                 breakpoint: 992,
@@ -41,7 +52,29 @@ $(document).ready(function(){
                   arrows:false,
                 },
             },
+
+            {
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 2,
+                  slidesToScroll:1,
+                  dots: false,
+                  arrows:false,
+                },
+            },
+
+            {
+                breakpoint: 576,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll:1,
+                  dots: false,
+                  arrows:false,
+                },
+            },
         ],
+
+       
     });
 
      // counter up 

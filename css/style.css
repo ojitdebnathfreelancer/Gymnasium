@@ -1,19 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-ul{
-    list-style: none;
-}
-
-a{
-    text-decoration: none;
-}
-
-img{
-    vertical-align: middle;
-}
 
 :root{
     --ff1:'Oswald', sans-serif;
@@ -32,6 +16,22 @@ img{
     --hovercolor:rgba(226, 62, 56, 0.5);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
 /*=====================
  common css ends  
  ====================*/
@@ -137,6 +137,10 @@ img{
     z-index: 9999;
 }
 
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
 .navbar .navbar-brand{
     background-color:rgba(241, 241, 241, 0.20) ;
     transform: skewX(-35deg);
@@ -156,6 +160,10 @@ img{
     -o-transform: skewX(35deg);
 }
 
+.btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
+	box-shadow:none;
+}
+
  .navbar-light .navbar-nav .nav-link{
      line-height: 50px;
      padding: 0 10px;
@@ -166,6 +174,7 @@ img{
      -moz-transition: all ease 0.3s;
      -ms-transition: all ease 0.3s;
      -o-transition: all ease 0.3s;
+     z-index: 1;
 }
 
  .navbar-light .navbar-nav .nav-link:hover{
@@ -204,11 +213,11 @@ img{
     position: absolute;
     background-color: var(--brandcolor);
     z-index: -1;
-    transition: all linear 0.3s;
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -ms-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
 }
 
 .navbar-light .navbar-nav .nav-link.active::after{
@@ -226,7 +235,7 @@ img{
      position: relative;
      z-index: 1;
      padding-top: 240px;
-     padding-bottom: 115px;
+     padding-bottom: 151px;
  }
 
  #banner .banner-slider .slick-dots{
@@ -406,6 +415,7 @@ img{
 
 #banner .banner-slider .item .container .banner-text .cta-btn:hover{
     background-color: var(--brandcolor);
+    border-color: var(--brandcolor);
 }
 /*=====================
  banner css ends  
@@ -798,18 +808,14 @@ img{
     padding-bottom: 80px;
 }
 
-/* #brand .slick-slide{
-    padding: 0px 15px;
-} */
 
 #brand .brand-item{
-    margin:0px 15px;
-    /* background-color: red; */
+    padding:0px 15px;
 }
 
-#brand .slick-center{
+/* #brand .slick-center{
     box-shadow: 0px 0px 10px 0px rgba(255, 4, 4, 0.7);
-}
+} */
 
 #brand .left-arrow{
     color:var(--headtextcolor);
