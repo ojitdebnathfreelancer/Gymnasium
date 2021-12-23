@@ -273,7 +273,8 @@
 
     /* our team css starts  */
     #our-team {
-        padding: 10px 0;
+        padding-top: 15px;
+        padding-bottom: 0px;
     }
 
     #our-team .container .card{
@@ -345,3 +346,468 @@
  /*==========================
   small device ends
  ==========================  */
+
+ /*==========================
+  medium device starts
+ ==========================  */
+@media (min-width:768px) and (max-width:991px){
+    /* navbar css starts  */
+    .navbar{
+       background: transparent !important;
+    }
+
+    .navbar .navbar-brand{
+        position: unset !important;
+    }
+
+    .navbar .navbar-toggler{
+        border-color:#e23e38;
+        border-width: 2px;
+        outline: none !important;
+}
+    .navbar .navbar-toggler i{
+        color: #fff;
+    }
+
+    .navbar-light .navbar-nav{
+        background: rgba(53, 53, 51, 0.5);
+        width: 100px;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+       text-align: center;
+    }
+    /* navbar css ends  */
+
+    /* banner css starts  */
+    #banner .banner-slider .bg-1 h3::before {
+        content: '';
+        height: 3px;
+        width: 204px;
+        position: absolute;
+        left: 45px;
+        top: 31px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h3::after {
+        content: '';
+        height: 3px;
+        width: 165px;
+        position: absolute;
+        right: 45px;
+        top: 31px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::before {
+        content: '';
+        width: 91px;
+        height: 3px;
+        position: absolute;
+        top: 88px;
+        left: 42px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::after {
+        content: '';
+        width: 60px;
+        height: 3px;
+        position: absolute;
+        top: 88px;
+        right: 42px;
+        background-color: var(--brandcolor);
+    }
+    /* banner css ends  */
+
+    /* about css starts  */
+    #about {
+        padding: 20px 0;
+    }
+
+    #about .about-text p {
+        padding: 0 0px;
+    }
+    /* about css ends  */
+
+    /* our team css starts  */
+    #our-team {
+        padding: 20px 0;
+    }
+
+    #our-team .container .card{
+        margin-top: 50px !important;
+    }
+    /* our team css ends  */
+
+    /* testimonial css starts  */
+    #testimonial .container .tesimonail-slider .testimonial-item .person-text p {
+        padding-right: 20px;
+    }
+    /* testimonial css ends  */
+
+    /* membership css starts  */
+    #membership {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* membership css ends  */
+
+    /* our classes css starts  */
+    .routine-head {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #routine .routine-item .tab-content .tab-pane ul li{
+        width: 50%;
+    }
+    /* our classes css ends  */
+
+    /* footer css starts */
+    #footer .footer-item h5{
+        margin-top: 30px !important;
+    }
+
+    #footer .main-footer{
+        padding-top: 0;
+    }
+    
+    #main-footer col-xs-6{
+        width: 50% !important;
+    }
+    /* footer css ends */
+}
+ /*==========================
+  medium device ends
+ ==========================  */
+
+ /*==========================
+  large device starts
+ ==========================  */
+@media (min-width:992px) and (max-width:1199px){
+    /* banner css starts  */
+
+    #banner .banner-slider .bg-1 h3.lg-margin{
+        margin-top: 55px;
+    }
+
+    #banner .banner-slider .bg-1 h3::before {
+        content: '';
+        height: 3px;
+        width: 180px;
+        position: absolute;
+        left: -81px;
+        top: 21px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h3::after {
+        content: '';
+        height: 3px;
+        width: 112px;
+        position: absolute;
+        right: -75px;
+        top: 21px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h1::before {
+        content: '';
+        width: 3px;
+        height: 200px;
+        position: absolute;
+        top: -29px;
+        left: -82px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h1::after {
+        content: '';
+        width: 3px;
+        height: 200px;
+        position: absolute;
+        top: -30px;
+        right: -78px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::before {
+        content: '';
+        width: 78px;
+        height: 3px;
+        position: absolute;
+        top: 79px;
+        left: -82px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::after {
+        content: '';
+        width: 39px;
+        height: 3px;
+        position: absolute;
+        top: 78px;
+        right: -78px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .item.bg-2 {
+        padding-bottom: 151px;
+    }
+
+    #banner .banner-slider .item.bg-2 {
+        padding-bottom: 206px;
+    }
+
+    #banner .banner-slider .item.bg-3 {
+        padding-bottom:206px;
+    }
+    /* banner css ends  */
+
+    /* about css starts  */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    #about .about-text p {
+        padding: 0 0px;
+    }
+    /* about css ends  */
+
+    /* our team css starts */
+    #our-team{
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+    /* our team css ends */
+
+    /* testimonial css starts */
+    #testimonial .container .tesimonail-slider .testimonial-item .person-text p {
+        padding-right: 50px;
+    }
+    /* testimonial css ends */
+
+    /* membership css starts */
+    #membership {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* membership css ends */
+
+    /* our clases css starts  */
+    .routine-head {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* our clases css ends  */
+}
+ /*==========================
+  large device ends
+ ==========================  */
+
+  /*==========================
+  exra large device starts
+ ==========================  */
+@media (min-width:1200px) and (max-width:1399px){
+    /* banner css starts  */
+
+    #banner .banner-slider .bg-1 h3.lg-margin{
+        margin-top: 55px;
+    }
+
+    #banner .banner-slider .bg-1 h3::before {
+        content: '';
+        height: 3px;
+        width: 180px;
+        position: absolute;
+        left: -36px;
+        top: 21px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h3::after {
+        content: '';
+        height: 3px;
+        width: 112px;
+        position: absolute;
+        right: -30px;
+        top: 21px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h1::before {
+        content: '';
+        width: 3px;
+        height: 200px;
+        position: absolute;
+        top: -29px;
+        left: -36px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h1::after {
+        content: '';
+        width: 3px;
+        height: 200px;
+        position: absolute;
+        top: -30px;
+        right: -32px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::before {
+        content: '';
+        width: 78px;
+        height: 3px;
+        position: absolute;
+        top: 79px;
+        left: -36px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::after {
+        content: '';
+        width: 39px;
+        height: 3px;
+        position: absolute;
+        top: 78px;
+        right: -32px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .item.bg-2 {
+            padding-bottom: 224px;
+    }
+
+    #banner .banner-slider .item.bg-3 {
+        padding-bottom: 224px;
+    }
+    /* banner css ends  */
+
+    /* about css starts */
+    #about {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    #about .about-text p {
+        padding: 0 0px;
+    }
+    /* about css ends */
+
+    /* our team css starts  */
+    #our-team {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    #our-team .container .card{
+        margin-top: 50px;
+    }
+    /* our team css ends  */
+
+    /* membership css starts */
+    #membership {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    /* membership css ends */
+
+    /* our classes css starts  */
+    .routine-head {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* our classes css ends  */
+}
+ /*==========================
+  exra large device ends
+ ==========================  */
+
+ /*============================ 
+ exra exra large device starts
+ =============================== */
+@media (min-width:1400px){
+    #banner .banner-slider .bg-1 h3.lg-margin{
+        margin-top: 55px;
+    }
+
+    #banner .banner-slider .bg-1 h3::before {
+        content: '';
+        height: 3px;
+        width: 180px;
+        position: absolute;
+        left: -5px;
+        top: 21px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h3::after {
+        content: '';
+        height: 3px;
+        width: 112px;
+        position: absolute;
+        right: 12px;
+        top: 21px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h1::before {
+        content: '';
+        width: 3px;
+        height: 200px;
+        position: absolute;
+        top: -29px;
+        left: -5px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 h1::after {
+        content: '';
+        width: 3px;
+        height: 200px;
+        position: absolute;
+        top: -30px;
+        right: 12px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::before {
+        content: '';
+        width: 90px;
+        height: 3px;
+        position: absolute;
+        top: 79px;
+        left: -5px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .bg-1 p::after {
+        content: '';
+        width: 39px;
+        height: 3px;
+        position: absolute;
+        top: 78px;
+        right:12px;
+        background-color: var(--brandcolor);
+    }
+
+    #banner .banner-slider .item{
+        padding-bottom: 169px;
+    }
+
+    #banner .banner-slider .item.bg-2 {
+            padding-bottom: 224px;
+    }
+
+    #banner .banner-slider .item.bg-3 {
+        padding-bottom: 224px;
+    }
+    /* banner css ends  */
+}
+ /*==============================
+  exra exra large device ends
+  ============================== */

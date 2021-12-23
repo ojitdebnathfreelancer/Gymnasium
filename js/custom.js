@@ -2,7 +2,7 @@ $(document).ready(function(){
     // banner sliders 
     $(".banner-slider").slick({
         arrows:false,
-        // autoplay:true,
+        autoplay:true,
         autoplaySpeed:3000,
         pauseOnHover:false,
         dots:true,
@@ -43,13 +43,24 @@ $(document).ready(function(){
         pauseOnHover:false,
         autoplay:true,
         responsive: [
+
+            {
+                breakpoint: 1200,
+                settings: {
+                  slidesToShow:4,
+                  slidesToScroll:1,
+                  dots: false,
+                  arrows:true,
+                },
+            },
+
             {
                 breakpoint: 992,
                 settings: {
-                  slidesToShow: 3,
+                  slidesToShow:3,
                   slidesToScroll:1,
                   dots: false,
-                  arrows:false,
+                  arrows:true,
                 },
             },
 
@@ -59,7 +70,7 @@ $(document).ready(function(){
                   slidesToShow: 2,
                   slidesToScroll:1,
                   dots: false,
-                  arrows:false,
+                  arrows:true,
                 },
             },
 
