@@ -21,6 +21,10 @@ $(document).ready(function(){
         $("body").addClass("green").removeClass("orange").removeClass("blue").removeClass("aqua");
     });
 
+    $(".color-picker .defulat").on("click",function(){
+        $("body").removeClass("green").removeClass("orange").removeClass("blue").removeClass("aqua");
+    });
+
     // banner sliders 
     $(".banner-slider").slick({
         arrows:false,
