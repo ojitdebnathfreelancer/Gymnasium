@@ -986,6 +986,264 @@ img{
 #footer .copyright p a{
     color: var(--brandcolor);
 }
-/*===========================
+/* ===========================
   footer css ends
-=========================*/
+========================= */
+
+/* ==========================
+ color picker css starts
+ =========================  */
+.color-picker{
+    height: 50px;
+    width: 200px;
+    background: #32a3ee;
+    position: fixed;
+    top:350px;
+    right:-200px;
+    transition: linear all 0.4s;
+    -webkit-transition: linear all 0.4s;
+    -moz-transition: linear all 0.4s;
+    -ms-transition: linear all 0.4s;
+    -o-transition: linear all 0.4s;
+}
+
+.color-picker-pos{
+    right: 0;
+}
+
+.color-picker .color-button{
+    height: 30px;
+    width: 30px;
+    background:var(--brandcolor);
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    left: -30px;
+    cursor: pointer;
+}
+
+.color-picker .color-button i{
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    color: #fff;
+}
+
+.color-picker ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-picker ul li.defulat{
+    background: var(--brandcolor);
+}
+
+.color-picker ul li.orange{
+    background: #fa983a;
+}
+
+.color-picker ul li.blue{
+    background:#8c7ae6;
+}
+
+.color-picker ul li.aqua{
+    background:#079992;
+}
+
+.color-picker ul li.green{
+    background:#b8e994;
+}
+/* =======================
+color picker css ends 
+======================== */
+
+/* ==============================
+color picker options css starts 
+================================= */
+
+/* orange color picker option css start  */
+.orange .navbar-light .navbar-nav .nav-link::after,
+.orange #banner .banner-slider .bg-1 h3::before,
+.orange #banner .banner-slider .bg-1 h3::after,
+.orange #banner .banner-slider .bg-1 h1::before,
+.orange #banner .banner-slider .bg-1 h1::after,
+.orange #banner .banner-slider .bg-1 p::before,
+.orange #banner .banner-slider .bg-1 p::after,
+.orange #banner .banner-slider .slick-dots li.slick-active,
+.orange #about .about-image i,
+.orange #testimonial .container .tesimonail-slider .slick-dots li.slick-active,
+.orange #routine .nav-tabs .nav-item .nav-link.active,
+.orange #routine .routine-item .tab-content .tab-pane ul li.active,
+.orange #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.orange .color-picker .color-button{
+    background: #fa983a;
+}
+
+.orange #gallery .gallery-item .gallery-overlay,
+.orange #our-team .container .team-image .image-overlay,
+.orange #membership .container .main-div .membership-item:hover .item-head h1,
+.orange #membership .container .main-div .membership-item:hover .btn,
+.orange #footer .main-footer .footer-item .socail-link a i:hover{
+    background: rgba(250, 151, 58, 0.5);
+}
+
+.orange #testimonial .container .tesimonail-slider .testimonial-item .reating i,
+.orange #footer .main-footer .footer-item .contact li i,
+.orange #footer .main-footer .footer-item .twitter-feed li .icon i,
+.orange #footer .copyright p a,
+.orange #brand .right-arrow:hover,
+.orange #brand .left-arrow:hover,
+.orange .text-brand{
+    color:#fa983a;
+}
+
+.orange #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.orange #footer .main-footer .footer-item .socail-link a i:hover,
+.orange #banner .banner-slider .slick-dots li.slick-active,
+.orange #testimonial .container .tesimonail-slider .slick-dots li.slick-active{
+    border-color:#fa983a;
+}
+/* orange color picker option css ends  */
+
+/* blue color picker option css start  */
+.blue .navbar-light .navbar-nav .nav-link::after,
+.blue #banner .banner-slider .bg-1 h3::before,
+.blue #banner .banner-slider .bg-1 h3::after,
+.blue #banner .banner-slider .bg-1 h1::before,
+.blue #banner .banner-slider .bg-1 h1::after,
+.blue #banner .banner-slider .bg-1 p::before,
+.blue #banner .banner-slider .bg-1 p::after,
+.blue #banner .banner-slider .slick-dots li.slick-active,
+.blue #about .about-image i,
+.blue #testimonial .container .tesimonail-slider .slick-dots li.slick-active,
+.blue #routine .nav-tabs .nav-item .nav-link.active,
+.blue #routine .routine-item .tab-content .tab-pane ul li.active,
+.blue #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.blue .color-picker .color-button{
+    background: #8c7ae6;
+}
+
+.blue #gallery .gallery-item .gallery-overlay,
+.blue #our-team .container .team-image .image-overlay,
+.blue #membership .container .main-div .membership-item:hover .item-head h1,
+.blue #membership .container .main-div .membership-item:hover .btn,
+.blue #footer .main-footer .footer-item .socail-link a i:hover{
+    background: rgba(140, 122, 230, 0.5);
+}
+
+.blue .text-brand,
+.blue #testimonial .container .tesimonail-slider .testimonial-item .reating i,
+.blue #footer .main-footer .footer-item .contact li i,
+.blue #footer .main-footer .footer-item .twitter-feed li .icon i,
+.blue #footer .copyright p a,
+.blue #brand .right-arrow:hover,
+.blue #brand .left-arrow:hover{
+    color:#8c7ae6;
+}
+
+.blue #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.blue #footer .main-footer .footer-item .socail-link a i:hover,
+.blue #banner .banner-slider .slick-dots li.slick-active,
+.blue #testimonial .container .tesimonail-slider .slick-dots li.slick-active{
+    border-color:#8c7ae6;
+}
+/* blue color picker option css ends  */
+
+/* aqua color picker option css start  */
+.aqua .navbar-light .navbar-nav .nav-link::after,
+.aqua #banner .banner-slider .bg-1 h3::before,
+.aqua #banner .banner-slider .bg-1 h3::after,
+.aqua #banner .banner-slider .bg-1 h1::before,
+.aqua #banner .banner-slider .bg-1 h1::after,
+.aqua #banner .banner-slider .bg-1 p::before,
+.aqua #banner .banner-slider .bg-1 p::after,
+.aqua #banner .banner-slider .slick-dots li.slick-active,
+.aqua #about .about-image i,
+.aqua #testimonial .container .tesimonail-slider .slick-dots li.slick-active,
+.aqua #routine .nav-tabs .nav-item .nav-link.active,
+.aqua #routine .routine-item .tab-content .tab-pane ul li.active,
+.aqua #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.aqua .color-picker .color-button{
+    background: #079992;
+}
+
+.aqua #gallery .gallery-item .gallery-overlay,
+.aqua #our-team .container .team-image .image-overlay,
+.aqua #membership .container .main-div .membership-item:hover .item-head h1,
+.aqua #membership .container .main-div .membership-item:hover .btn,
+.aqua #footer .main-footer .footer-item .socail-link a i:hover{
+    background: rgba(7, 153, 146, 0.5);
+}
+
+.aqua .text-brand,
+.aqua #testimonial .container .tesimonail-slider .testimonial-item .reating i,
+.aqua #footer .main-footer .footer-item .contact li i,
+.aqua #footer .main-footer .footer-item .twitter-feed li .icon i,
+.aqua #footer .copyright p a,
+.aqua #brand .right-arrow:hover,
+.aqua #brand .left-arrow:hover{
+    color:#079992;
+}
+
+.aqua #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.aqua #footer .main-footer .footer-item .socail-link a i:hover,
+.aqua #banner .banner-slider .slick-dots li.slick-active,
+.aqua #testimonial .container .tesimonail-slider .slick-dots li.slick-active{
+    border-color:#079992;
+}
+/* aqua color picker option css ends  */
+
+
+/* green color picker option css start  */
+.green .navbar-light .navbar-nav .nav-link::after,
+.green #banner .banner-slider .bg-1 h3::before,
+.green #banner .banner-slider .bg-1 h3::after,
+.green #banner .banner-slider .bg-1 h1::before,
+.green #banner .banner-slider .bg-1 h1::after,
+.green #banner .banner-slider .bg-1 p::before,
+.green #banner .banner-slider .bg-1 p::after,
+.green #banner .banner-slider .slick-dots li.slick-active,
+.green #about .about-image i,
+.green #testimonial .container .tesimonail-slider .slick-dots li.slick-active,
+.green #routine .nav-tabs .nav-item .nav-link.active,
+.green #routine .routine-item .tab-content .tab-pane ul li.active,
+.green #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.green .color-picker .color-button{
+    background: #b8e994;
+}
+
+.green #gallery .gallery-item .gallery-overlay,
+.green #our-team .container .team-image .image-overlay,
+.green #membership .container .main-div .membership-item:hover .item-head h1,
+.green #membership .container .main-div .membership-item:hover .btn,
+.green #footer .main-footer .footer-item .socail-link a i:hover{
+    background: rgba(183, 233, 148, 0.5);
+}
+
+.green .text-brand,
+.green #testimonial .container .tesimonail-slider .testimonial-item .reating i,
+.green #footer .main-footer .footer-item .contact li i,
+.green #footer .main-footer .footer-item .twitter-feed li .icon i,
+.green #footer .copyright p a,
+.green #brand .right-arrow:hover,
+.green #brand .left-arrow:hover{
+    color:#b8e994;
+}
+
+.green #banner .banner-slider .item .container .banner-text .cta-btn:hover,
+.green #footer .main-footer .footer-item .socail-link a i:hover,
+.green #banner .banner-slider .slick-dots li.slick-active,
+.green #testimonial .container .tesimonail-slider .slick-dots li.slick-active{
+    border-color:#b8e994;
+}
+/* green color picker option css ends  */
+
+/* ============================
+color picker options css ends 
+=============================== */

@@ -1,8 +1,30 @@
 $(document).ready(function(){
+
+    // color picker 
+    $(".color-button").on("click",function(){
+        $(".color-picker").toggleClass("color-picker-pos");
+    });
+    
+    $(".color-picker .orange").on("click",function(){
+        $("body").addClass("orange").removeClass("blue").removeClass("aqua").removeClass("green");
+    });
+
+    $(".color-picker .blue").on("click",function(){
+        $("body").addClass("blue").removeClass("orange").removeClass("aqua").removeClass("green");
+    });
+
+    $(".color-picker .aqua").on("click",function(){
+        $("body").addClass("aqua").removeClass("orange").removeClass("blue").removeClass("green");
+    });
+
+    $(".color-picker .green").on("click",function(){
+        $("body").addClass("green").removeClass("orange").removeClass("blue").removeClass("aqua");
+    });
+
     // banner sliders 
     $(".banner-slider").slick({
         arrows:false,
-        autoplay:true,
+        autoplay:false,
         autoplaySpeed:3000,
         pauseOnHover:false,
         dots:true,
