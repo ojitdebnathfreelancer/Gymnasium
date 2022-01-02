@@ -25,10 +25,26 @@ $(document).ready(function(){
         $("body").removeClass("green").removeClass("orange").removeClass("blue").removeClass("aqua");
     });
 
+    $(".color-picker .body-them .light").on("click",function(){
+        $("body").removeClass("blackclick");
+    });
+
+    $(".color-picker .body-them .black").on("click",function(){
+        $("body").addClass("blackclick");
+    });
+
+    // preloader 
+    $('.loadcounter').counterUp({
+        delay: 10,
+        time: 1500,
+    });
+
+    $(".preloader").delay(2000).fadeOut();
+
     // banner sliders 
     $(".banner-slider").slick({
         arrows:false,
-        autoplay:false,
+        autoplay:true,
         autoplaySpeed:3000,
         pauseOnHover:false,
         dots:true,
@@ -42,7 +58,7 @@ $(document).ready(function(){
         arrows:false,
         slidesToShow:2,
         dots:true,
-        autoplay:false,
+        autoplay:true,
         pauseOnHover:false,
         responsive:[
             {

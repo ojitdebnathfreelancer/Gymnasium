@@ -128,6 +128,89 @@ img{
     margin-top: -5px;
 }
 
+.blackclick .head h1{
+    color: #fff;
+}
+
+.blackclick #about .about-text p{
+    color: #fff;
+}
+
+/* ==========================
+preloader css starts 
+========================= */
+.preloader{
+    height: 100vh;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+}
+
+.preloader .loader{
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation: loader 2s linear infinite;
+    -webkit-animation: loader 2s linear infinite;
+}
+
+.time h4{
+    font-size: 50px;
+    color:green;
+    }
+
+@keyframes loader {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(90deg);
+        border-top-color:#e23e38;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(160deg);
+        border-bottom-color: blue;
+        -webkit-transform: rotate(160deg);
+        -moz-transform: rotate(160deg);
+        -ms-transform: rotate(160deg);
+        -o-transform: rotate(160deg);
+    }
+
+    75%{
+        transform: rotate(360deg);
+        border-right-color: yellow;
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+}
+/* ==========================
+preloader css ends 
+========================= */
+
  /*=====================
  hread css ends  
  ====================*/
@@ -994,7 +1077,7 @@ img{
  color picker css starts
  =========================  */
 .color-picker{
-    height: 50px;
+    height: 100px;
     width: 200px;
     background: #32a3ee;
     position: fixed;
@@ -1016,7 +1099,7 @@ img{
     width: 30px;
     background:var(--brandcolor);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
     position: absolute;
     left: -30px;
     cursor: pointer;
@@ -1243,6 +1326,29 @@ color picker options css starts
     border-color:#b8e994;
 }
 /* green color picker option css ends  */
+
+/* body them starts  */
+.body-them{
+    height: 50px;
+    width: 200px;
+    background: #32a3ee;
+    border-top: 2px solid #fff;
+}
+
+.body-them span i{
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blackclick{
+    background: black;
+}
+
+.body-them span i.black{
+    color:black;
+}
+/* body them ends  */
 
 /* ============================
 color picker options css ends 
