@@ -54,10 +54,10 @@ $(document).ready(function(){
     // preloader 
     $('.loadcounter').counterUp({
         delay: 10,
-        time: 1500,
+        time: 2000,
     });
 
-    $(".preloader").delay(2000).fadeOut();
+    $("#preloader").delay(3500).fadeOut();
 
     // banner sliders 
     $(".banner-slider").slick({
